@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/content": "^2.4.3",
+    "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
+    "nuxt": "^3.2.3",
+    "sass": "^1.54.8",
+    "sass-loader": "^10.3.1"
+  },
+  "dependencies": {
+    "@nuxt/image": "^0.7.1",
+    "bulma": "^0.9.4",
+    "vuex": "^4.1.0"
+  }
+}
