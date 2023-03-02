@@ -16,7 +16,10 @@
   },
   "dependencies": {
     "@nuxt/image": "^0.7.1",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@pinia/nuxt": "^0.4.7",
     "bulma": "^0.9.4",
+    "pinia": "^2.0.32",
     "vuex": "^4.1.0"
   }
 }

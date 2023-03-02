@@ -1,4 +1,6 @@
 <script setup>
+import { ref, onMounted } from 'vue';
+
 
 </script>
 
@@ -14,10 +16,12 @@
 
     <NuxtLayout>
         <section class="container is-small">
+            <!--
         <nuxt-img class="img" 
                     src="../public/salym.eth_bald_black_man_as_a_young_aristocrat_egypt_architectu_4eb25135-26f3-488d-bad0-07ebdfd6f5c4.png"
                     alt="Domain of Prosperity" 
                     />
+        -->
         </section >
         <section id="test" class="hero is-medium">
             <div class="hero-body">

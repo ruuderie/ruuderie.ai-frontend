@@ -1,12 +1,10 @@
-<script>
-export default {
-  computed: {
-    currentYear() {
+<script setup>
+import { reactive, computed } from 'vue'
+
+const currentYear = computed(() => {
       const today = new Date()
       return today.getFullYear()
-    }
-  }
-}
+});
 </script>
 
 <template>

@@ -1,4 +1,6 @@
-<script setup></script>
+<script setup>
+import ENV from '@/store/env'
+</script>
 
 <template>
   <NuxtPage />

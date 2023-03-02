@@ -1,6 +1,4 @@
 <script setup>
-import { defineProps } from 'vue';
-import { useStore } from 'vuex';
 import { useRouter } from 'vue-router';
 const props = defineProps   ({
         type: {
@@ -26,7 +24,7 @@ const props = defineProps   ({
         imageLink: {
             type: String,
             required: false,
-            default: 'https://bulma.io/images/placeholders/1280x960.png'
+            default: ''
         },
         imageDescription: {
             type: String,
@@ -34,8 +32,6 @@ const props = defineProps   ({
             default: 'Placeholder image'
         },
     });
-    const store = useStore();
-
 
 
 </script>
@@ -43,7 +39,7 @@ const props = defineProps   ({
 <template>
     <!--v-if to activate or deactivate this segment --> 
 
-    <div v-if="type === 'quote'" class="card is-small">
+    <div v-if="type === 'quote'" class="card is-small is-mobile">
         <div class="card-content">
             <p class="title">
             {{ quote }}
@@ -61,10 +57,10 @@ const props = defineProps   ({
         </footer>
     </div>
     <div v-else>
-        <div class="card">
+        <div class="card is-mobile is-small">
             <div class="card-image">
                 <figure class="image is-4by3">
-                <nuxt-img src="{{ imageLink }}" alt="{{ imageDescription }}" />
+                <NuxtImg src="{{ imageLink }}" />
                 </figure>
             </div>
         </div>
