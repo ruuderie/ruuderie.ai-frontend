@@ -11,22 +11,22 @@ const currentYear = computed(() => {
   <footer class="footer">
     <div class="content has-text-centered">
       <p>
-        © Oplyst International, LLC {{ currentYear }}.
         © Ruud Salym Erie {{ currentYear }}.
-      
-      Made with
-      <a href="https://www.nuxtjs.org">NuxtJS</a> 
-    </p>
+      </p>
+      <p>Made with
+        <NuxtLink href="https://www.nuxtjs.org"><Icon name="logos:nuxt" class="is-large"/></NuxtLink> 
+      </p>
+      <p>AWS is a trademark of Amazon.com, Inc. or its affiliates.</p>
     </div>
   </footer>
 </template>
 
 <style lang="scss">
-/*
+
 @import '../styles/_settings.scss';
 
 .footer {
-  text-align: center;
-  border-top: 2px solid $c-border;
-} */
+  position:auto;
+  bottom:0;
+} 
 </style>

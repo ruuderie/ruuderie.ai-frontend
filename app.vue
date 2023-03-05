@@ -1,9 +1,10 @@
 <script setup>
-import ENV from '@/store/env'
+
 </script>
 
 <template>
   <NuxtPage />
+
 </template>
 
 <style lang="scss">
