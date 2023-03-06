@@ -19,8 +19,9 @@ export default defineNuxtConfig({
 			['defineStore', 'definePiniaStore'], // import { defineStore as definePiniaStore } from 'pinia'
 		],
 	},
-	runtimeConfig: {
-		env: '',
+	publicRuntimeConfig: {
+		CMS_API_TOKEN: process.env.CMS_API_TOKEN,
+		HELLOWORLD: process.env.HELLOWORLD,
 	},
 	image: {
 		// The screen sizes predefined by `@nuxt/image`:

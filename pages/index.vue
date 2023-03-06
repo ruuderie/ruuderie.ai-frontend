@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <Html>
+	<div>
         <Head>
             <Title>Ruud Erie 💻💪💯 | ⟠ 🦀  </Title>
             <Link 
@@ -17,7 +17,6 @@
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" 
             rel="stylesheet"> </Link>        
         </Head>
-    </Html>
     <NuxtLayout>
         <section class="container is-small">
 				<nuxt-img class="img" 
@@ -102,6 +101,7 @@
             </div>
         </section>
 				</NuxtLayout>
+			</div>
 </template>
 
 <style lang="scss">

@@ -3,8 +3,10 @@
 </script>
 
 <template>
+    <div>
     About
     <NuxtLayout/>
+    </div>
 
 </template>
 
