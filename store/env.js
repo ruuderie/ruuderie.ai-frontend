@@ -1,4 +1,4 @@
-import dotenv from "dotenv";
+import dotenv from 'dotenv';
 export default {
-  helloWorld: "Hello World",
+	helloWorld: 'Hello World',
 };

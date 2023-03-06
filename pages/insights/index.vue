@@ -4,7 +4,7 @@
 
 <template>
     <NuxtLayout/>
-
+Insights
 </template>
 
 <style></style>

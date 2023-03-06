@@ -1,37 +1,33 @@
 <script setup>
-import { ref, onMounted } from 'vue';
-const socialMediaLinksSample = ref([
-    {
-        name: 'Twitter',
-        url: 'https://twitter.com/codinghorror/status/506010907021828096'
-    },
-    {
-        name: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/ruuderie/'
-    }]);
+
 </script>
 
 <template>
     <Html>
         <Head>
-            <Title>Ruud Erie 💻💪💯 </Title>
-            <Link rel="preconnect" href="https://fonts.googleapis.com"/>
-            <Link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-            <Link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet"/>        
+            <Title>Ruud Erie 💻💪💯 | ⟠ 🦀  </Title>
+            <Link 
+            rel="preconnect" 
+            href="https://fonts.googleapis.com"/>
+            <Link 
+            rel="preconnect" 
+            href="https://fonts.gstatic.com" 
+            crossorigin/>
+            <Link 
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" 
+            rel="stylesheet"> </Link>        
         </Head>
     </Html>
-
     <NuxtLayout>
         <section class="container is-small">
-            <!--
-        <nuxt-img class="img" 
+				<nuxt-img class="img" 
                     src="../public/salym.eth_bald_black_man_as_a_young_aristocrat_egypt_architectu_4eb25135-26f3-488d-bad0-07ebdfd6f5c4.png"
                     alt="Domain of Prosperity" 
                     />
-        -->
+        
 
-        </section >
-        <section id="test" class="hero is-large">
+        </section > 
+        <section id="hero" class="hero is-large">
             <div class="hero-body">
                 <h1 class="title">
                     Ruud Erie
@@ -67,8 +63,8 @@ const socialMediaLinksSample = ref([
 
         </section>
         <section class="container is-medium py-6">
+					<div>
                     <center>
-                        <Icon name="logos:ethereum" class="is-large mx-1"/>
                         <Icon name="logos:ethereum" class="is-large mx-1"/>
                         <Icon name="vscode-icons:file-type-apex" class="is-large"/>
                         <Icon name="vscode-icons:file-type-light-rust" class="is-large mx-1"/>
@@ -77,20 +73,23 @@ const socialMediaLinksSample = ref([
                         <Icon name="logos:deno" class="is-large mx-1"/>
                         <Icon name="fa6-brands:node" class="is-large mx-1"/>
                         <Icon name="vscode-icons:file-type-vue" class="is-large mx-1"/>
-                        <Icon name="logos:nuxt" class="is-large mx-1"/>
+                        <Icon name="logos:nuxt-icon" class="is-large mx-1"/>
                         <Icon name="logos:postgresql" class="is-large mx-1"/>
                         <Icon name="logos:aws" class="is-large mx-1"/>
                     </center>
+									</div>
         </section>
             <span class="mb-2 pb-2"/>
         <section class="section is-medium is-res">
             <center>
-            <h1 class="title">Medium section</h1>
-            <h2 class="subtitle">
-                A simple container to divide your page into 
-                <strong>sections</strong>, 
-                like the one you're currently reading.
-            </h2>
+            <h1 class="title">Core Principles</h1>
+                <ul>
+                    <li class="subtitle">Users come first.</li>
+                    <li class="subtitle">Quality and reliability are crucial.</li>
+                    <li class="subtitle">Always be learning and improving.</li>
+                    <li class="subtitle">Collaboration is key.</li>
+                    <li class="subtitle">Protect privacy, security, and human rights.</li>
+                </ul>
             </center>
         </section>
         <section class="section is-medium is-res">
@@ -102,10 +101,7 @@ const socialMediaLinksSample = ref([
                 <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
             </div>
         </section>
-    </NuxtLayout>
-
-    
-
+				</NuxtLayout>
 </template>
 
 <style lang="scss">

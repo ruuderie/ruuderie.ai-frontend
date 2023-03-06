@@ -3,6 +3,7 @@
 </script>
 
 <template>
+    Contact
     <NuxtLayout/>
 
 </template>

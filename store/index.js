@@ -1,11 +1,11 @@
 export const state = () => ({
-  /*
+	/*
     counter: 0
     */
 });
 
 export const getters = {
-  /* 
+	/* 
     getCounter(state) {
       return state.counter
     } 
@@ -13,7 +13,7 @@ export const getters = {
 };
 
 export const mutations = {
-  /*
+	/*
     increment(state) {
       state.counter++
     }
@@ -21,7 +21,7 @@ export const mutations = {
 };
 
 export const actions = {
-  /*   
+	/*   
     async fetchCounter({ state }) {
       // make request
       const res = { data: 10 };
