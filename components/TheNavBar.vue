@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted } from "vue";
 let isActive = ref(false);
 let showNav = ref(true);
 let lastScrollPosition = ref(0);
@@ -38,7 +38,7 @@ function toggleNav (){
     <div :class="{ 'is-hidden': !showNav }">
       <div class="navbar-end">
         <NuxtLink to="/" class="navbar-item"> Home </NuxtLink>
-        <NuxtLink to="/blog" class="navbar-item"> Insights </NuxtLink>
+        <NuxtLink to="/insights" class="navbar-item"> Insights </NuxtLink>
         <NuxtLink to="/about" class="navbar-item"> About </NuxtLink>
         <span class="navbar-item">
               <NuxtLink to="https://github.com/ruuderie" class="button is-info is-inverted">

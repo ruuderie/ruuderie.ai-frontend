@@ -4,7 +4,7 @@
 
 <template>
 	<div>
-        <Head>
+		<Head>
             <Title>Ruud Erie 💻💪💯 | ⟠ 🦀  </Title>
             <Link 
             rel="preconnect" 
