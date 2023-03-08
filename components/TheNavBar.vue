@@ -4,7 +4,6 @@ let isActive = ref(false);
 let showNav = ref(true);
 let lastScrollPosition = ref(0);
 
-
 function toggleMenu (){
   isActive.value = !isActive.value;
   console.log('toggleMenu -[ isActive: ' + isActive.value + '] [showNav: ' + showNav.value + ']');

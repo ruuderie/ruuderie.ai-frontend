@@ -1,17 +1,46 @@
-html {
-  background-color: papayawhip;
+// Define color variables
+// Define color variables
+$dark-blue: rgb(34, 40, 49);
+$mid-blue: rgb(57, 62, 70);
+$turquoise: rgb(0, 173, 181);
+$light-gray: rgb(238, 238, 238);
+
+// Apply colors to different elements
+
+
+body {
+  background-color: $light-gray;
+  color: $mid-blue;
+}
+.navbar {
+  background-color: $light-gray;
+  color: $mid-blue;
 }
 
-.footer{
-  width:100%;
+h1, h2, h3 {
+  color: $dark-blue;
+}
+
+a {
+  color: $turquoise;
+  &:hover {
+    color: $mid-blue;
+  }
+}
+
+button {
+  background-color: $turquoise;
+  color: $turquoise;
+  &:hover {
+    background-color: $turquoise;
+    color: $turquoise;
+  }
+}
+footer {
   position: relative;
-  height: 5%;
   bottom: 0;
-  left: 0;
-}
-.img{
   width: 100%;
-  height: 50%;
-  object-fit: cover;
-  object-position: center;
+  background-color: $light-gray;
+
 }
+

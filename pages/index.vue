@@ -61,9 +61,8 @@
                   
 
         </section>
-        <section class="container is-medium py-6">
+        <section class="container is-medium py-6 has-text-centered">
 					<div>
-                    <center>
                         <Icon name="logos:ethereum" class="is-large mx-1"/>
                         <Icon name="vscode-icons:file-type-apex" class="is-large"/>
                         <Icon name="vscode-icons:file-type-light-rust" class="is-large mx-1"/>
@@ -75,12 +74,10 @@
                         <Icon name="logos:nuxt-icon" class="is-large mx-1"/>
                         <Icon name="logos:postgresql" class="is-large mx-1"/>
                         <Icon name="logos:aws" class="is-large mx-1"/>
-                    </center>
 									</div>
         </section>
             <span class="mb-2 pb-2"/>
-        <section class="section is-medium is-res">
-            <center>
+        <section class="section is-medium is-mobile has-text-centered">
             <h1 class="title">Core Principles</h1>
                 <ul>
                     <li class="subtitle">Users come first.</li>
@@ -89,15 +86,24 @@
                     <li class="subtitle">Collaboration is key.</li>
                     <li class="subtitle">Protect privacy, security, and human rights.</li>
                 </ul>
-            </center>
         </section>
-        <section class="section is-medium is-res">
+        <section class="section is-medium is-mobile">
             <div class="content is-large">
                 <center> <h3>Ruud Erie </h3> </center>
                 <p>Ruud Erie is a highly respected software architect and engineer who specializes in developing high performance applications that meet rapidly changing consumer demands and business needs. With his deep expertise in software architecture and agile-friendly digital transformation, he is a sought-after consultant who regularly delivers results across the globe.</p>
                 <p>Ruud has extensive experience working with top-tier companies on a wide range of projects, including enterprise applications and cloud-based solutions. He is particularly skilled in using enterprise platforms such as Salesforce, AWS, Google Cloud, and Microsoft Azure to deliver optimal results.</p>
                 <p>With a proven track record of success, Ruud has held a range of key roles throughout his career, including software engineer, software architect, solution architect, technical manager, project manager, and consultant.</p>
                 <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+                <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+                <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+                <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+                <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+                <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+                <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+                <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+                <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+                <p>Whether you need hands-on support or strategic leadership in your software projects, Ruud is an ideal partner. He is available to work with your team in a variety of capacities, from keynotes and consulting to training and more. To learn more about how Ruud can help your organization succeed, schedule a chat with him today.</p>  
+
             </div>
         </section>
 				</NuxtLayout>

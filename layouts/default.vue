@@ -1,12 +1,15 @@
 <template>
-    <div>
-    <section>
-        <TheNavBar />
-    </section>
-    <slot />
+    <div id="page-container" >
+        <section class="container">
+            <TheNavBar />
+            <slot id="content-wrap" />
+        </section>
+
+    <TheAppFooter  id="footer"/>
     </div>
-    <section>
-    <TheAppFooter />
-    </section>
 
 </template>
+<style>
+
+
+</style>
